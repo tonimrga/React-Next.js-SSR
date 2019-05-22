@@ -9419,7 +9419,7 @@ var _jsxFileName = "/home/toni/Desktop/my-app/pages/about.js";
 
 
 
-const Header = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./header */ "./pages/header.js")), {
+const Header = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./header */ "./pages/header.js")), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(/*! ./header */ "./pages/header.js")],
     modules: ['./header']
@@ -9466,7 +9466,7 @@ function IndexPage() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2Fhome%2Ftoni%2FDesktop%2Fmy-app%2Fpages%2Fabout.js ***!
   \**************************************************************************************************************************/
@@ -9489,5 +9489,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map

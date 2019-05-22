@@ -121,7 +121,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -153,9 +153,9 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   static async getInitialProps({
     query
   }) {
-    const id = query.id;
+    const title = query.title;
     return {
-      id
+      title
     };
   }
 
@@ -167,7 +167,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Header, {
-      title: this.props.id,
+      title: this.props.title,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -179,7 +179,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 15
       },
       __self: this
-    }, "This is a post with id: ", this.props.id));
+    }, "This is a post with id: ", this.props.title));
   }
 
 }
@@ -188,7 +188,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!*****************************!*\
   !*** multi ./pages/post.js ***!
   \*****************************/
@@ -230,6 +230,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "regenerator-runtime":
+/*!**************************************!*\
+  !*** external "regenerator-runtime" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("regenerator-runtime");
 
 /***/ })
 

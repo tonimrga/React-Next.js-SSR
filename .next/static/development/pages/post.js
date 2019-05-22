@@ -2815,7 +2815,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/toni/Desktop/my-app/pages/post.js";
 
 
-const Header = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(() => __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ./header */ "./pages/header.js")), {
+const Header = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(() => __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./header */ "./pages/header.js")), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(/*! ./header */ "./pages/header.js")],
     modules: ['./header']
@@ -2826,9 +2826,9 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   static async getInitialProps({
     query
   }) {
-    const id = query.id;
+    const title = query.title;
     return {
-      id
+      title
     };
   }
 
@@ -2840,7 +2840,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Header, {
-      title: this.props.id,
+      title: this.props.title,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -2852,7 +2852,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 15
       },
       __self: this
-    }, "This is a post with id: ", this.props.id));
+    }, "This is a post with id: ", this.props.title));
   }
 
 }
@@ -2861,7 +2861,7 @@ class Post extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 1:
+/***/ 3:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2Fhome%2Ftoni%2FDesktop%2Fmy-app%2Fpages%2Fpost.js ***!
   \************************************************************************************************************************/
@@ -2884,5 +2884,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=post.js.map

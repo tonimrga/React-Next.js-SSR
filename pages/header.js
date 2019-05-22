@@ -18,6 +18,7 @@ class Header extends React.Component {
             key="viewport"
           />
           <meta property="og:title" content={this.props.title} />
+          <meta property="og:description" content={this.props.title} />
         </Head>
       </div>
     );

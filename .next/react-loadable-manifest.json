@@ -1,20 +1,20 @@
 {
   "./header": [
     {
-      "id": "./node_modules/next-server/dist/lib/amp.js",
-      "name": "./node_modules/next-server/dist/lib/amp.js",
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js",
       "file": "static/chunks/1.js",
       "publicPath": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
-      "name": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
+      "id": "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js",
       "file": "static/chunks/2.js",
       "publicPath": "static/chunks/2.js"
     },
     {
-      "id": "./pages/header.js",
-      "name": "./pages/header.js",
+      "id": "./node_modules/@babel/runtime-corejs2/core-js/object/create.js",
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/create.js",
       "file": "static/chunks/3.js",
       "publicPath": "static/chunks/3.js"
     }

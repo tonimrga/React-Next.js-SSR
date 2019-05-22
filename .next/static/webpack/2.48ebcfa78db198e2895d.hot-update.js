@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+webpackHotUpdate(2,{
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
 /*!**********************************************************************************!*\
@@ -1152,5 +1152,5 @@ function (_React$Component) {
 
 /***/ })
 
-}]);
-//# sourceMappingURL=2.js.map
+})
+//# sourceMappingURL=2.48ebcfa78db198e2895d.hot-update.js.map

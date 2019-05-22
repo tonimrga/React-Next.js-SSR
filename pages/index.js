@@ -14,11 +14,11 @@ function IndexPage() {
 
       <br/>
       <h3>Posts - routes with params</h3>
-      <Link prefetch href="/post?id=1" as="/post-1">
+      <Link href="/post?title=title1" as="post/title1">
         <a>Post 1</a>
       </Link>
       <br/>
-      <Link prefetch href="/post?id=2" as="/post-2">
+      <Link href="/post?title=title2" as="post/title2">
         <a>Post 2</a>
       </Link>
 
