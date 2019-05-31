@@ -6,8 +6,6 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 
-console.log(process.env.key)
-
 app
   .prepare()
   .then(() => {
@@ -15,7 +13,7 @@ app
 
     server.get('/post/:title', (req, res) => {
       const actualPage = '/post'
-      const queryParams = { title: req.params.title }
+      const queryParams = { title: process.env.key }
       app.render(req, res, actualPage, queryParams)
     })
 
